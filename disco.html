@@ -1,0 +1,14 @@
+<html>
+    <body id="body">
+
+        <button onclick="changeBgColor('red')">Red</button>
+        <button onclick="changeBgColor('blue')">Blue</button>
+        <button onclick="changeBgColor('green')">Green</button>
+    </body>
+    <script>
+        function changeBgColor(colorcode){
+            document.getElementById('body').style.backgroundColor = colorcode;
+        }
+        changeBgColor()
+    </script>
+</html> 
